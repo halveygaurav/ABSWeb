@@ -66,9 +66,8 @@ const saveEmployeeFailure = (message) => {
     }
 }
 export const postEmployee = (params) => {
-    
-    return (dispatch) => {
-        
+     return (dispatch) => {
+
         dispatch(saveEmployeeRequest())
         return axios.post('http://www.absweb.somee.com/api/employee', params)
             .then(response => {
