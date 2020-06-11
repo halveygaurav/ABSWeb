@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ABSWeb/static/css/main.6401a0a3.chunk.css",
+    "main.js": "/ABSWeb/static/js/main.3c01c5c0.chunk.js",
+    "main.js.map": "/ABSWeb/static/js/main.3c01c5c0.chunk.js.map",
+    "runtime-main.js": "/ABSWeb/static/js/runtime-main.2f0e7dfc.js",
+    "runtime-main.js.map": "/ABSWeb/static/js/runtime-main.2f0e7dfc.js.map",
+    "static/css/2.a63652b2.chunk.css": "/ABSWeb/static/css/2.a63652b2.chunk.css",
+    "static/js/2.294f572f.chunk.js": "/ABSWeb/static/js/2.294f572f.chunk.js",
+    "static/js/2.294f572f.chunk.js.map": "/ABSWeb/static/js/2.294f572f.chunk.js.map",
+    "index.html": "/ABSWeb/index.html",
+    "precache-manifest.3cf19457c461da9483cca13979d03703.js": "/ABSWeb/precache-manifest.3cf19457c461da9483cca13979d03703.js",
+    "service-worker.js": "/ABSWeb/service-worker.js",
+    "static/css/2.a63652b2.chunk.css.map": "/ABSWeb/static/css/2.a63652b2.chunk.css.map",
+    "static/css/main.6401a0a3.chunk.css.map": "/ABSWeb/static/css/main.6401a0a3.chunk.css.map",
+    "static/js/2.294f572f.chunk.js.LICENSE.txt": "/ABSWeb/static/js/2.294f572f.chunk.js.LICENSE.txt",
+    "static/media/searchIcon.jpg": "/ABSWeb/static/media/searchIcon.fc8e6cb1.jpg",
+    "static/media/absweb.css": "/ABSWeb/static/media/smallsignup.7e77dbfe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f0e7dfc.js",
+    "static/css/2.a63652b2.chunk.css",
+    "static/js/2.294f572f.chunk.js",
+    "static/css/main.6401a0a3.chunk.css",
+    "static/js/main.3c01c5c0.chunk.js"
+  ]
+}
