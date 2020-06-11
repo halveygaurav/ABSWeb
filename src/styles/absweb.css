@@ -1,0 +1,358 @@
+
+
+.parentcontainer{
+    
+    height: 98vh;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+.container
+{
+  
+ display: inline;
+ flex:1;
+  
+}
+
+.firstheader{
+background-color: #041e42  ;
+height: 60px;
+position: relative;
+}
+.searchcontainer{
+  
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    height: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+.searchbox{
+color: black;
+width: 0px;
+border:none;
+outline: none;
+margin:5px;
+
+left:200px;
+background: transparent;
+transition: 0.4s;
+float: left;
+
+
+}
+.searchicon
+{
+    height: 40px;
+    width: 40px;
+    position:absolute;
+    
+    float: right;
+    top:3px;
+    right:8px;
+    padding:5x;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.searchcontainer:hover >.searchbox{
+   
+    width: 300px;
+}
+.loginbutton{
+    width:100px;
+    height: 30px;
+    background-color: white;;
+    color:blue;
+    position: absolute;
+    right: 400px;
+    border:none;
+    font-weight:bold;
+    top:25%;
+    padding:10px;
+    cursor: pointer;
+}
+
+.signupbutton{
+    width:100px;
+    height: 30px;
+    background-color: white;;
+    color:blue;
+    position: absolute;
+    right: 250px;
+    border:none;
+    font-weight:bold;
+    top:25%;
+    padding:10px;
+    cursor:pointer;
+}
+
+.secondheader{
+    background-color: white;
+    padding-top: 3rem;
+    
+    }
+.leftarea{
+    background-color: brown;
+    padding-top: 3rem;
+    flex:1 1 5rem;
+ 
+}
+.maincontainer{
+background-color: burlywood;
+padding-top: 3rem;
+flex:3 3;
+
+}
+.rightarea{
+    background-color: cornflowerblue;
+    padding-top: 3rem;
+    flex:1 1 5rem;
+       
+}
+.footer{
+background-color: #041e42;
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+.signupmodal{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    right: 350px;
+    bottom: 50px;
+    border:none;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    
+    
+}
+
+.signupcontainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.close{
+    position: absolute;
+    right: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    color:red;
+    top:-20px;
+}
+.close:hover{
+   
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: papayawhip;
+  }
+
+.leftside{
+background-color: #2874f0;
+flex:3 3 4rem;
+
+
+}
+.rightside{
+    background-color: #ffffff;
+    flex:5 5;
+        
+    
+}
+.signuptextupper{
+    position: relative;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: xx-large;
+    position: relative;
+    top: 33px;
+    text-align: center;
+}
+.signuptextlower{
+  
+       color: white;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: large;
+        position: relative;
+        top: 50px;
+        text-align: center;
+}
+.signupimage{
+    background-image: url('../images/smallsignup.jpg');
+    background-size: cover;
+    background-position: right;
+   width:200px;
+   height: 150px;
+   box-sizing: border-box;
+   padding:40px;
+  position: absolute;
+  bottom:40px;
+  left:20px;
+  opacity: 0.8;
+  
+   border-radius: 40%;
+
+    
+}
+.rightside input[type="text"]{
+    border:none;
+    outline: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #aaa;
+    margin-bottom:15px;
+    margin-left:30px;
+    padding:5px;
+    display: block;
+    width: 320px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+.rightside input[type="password"]{
+    border:none;
+    outline: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #aaa;
+    margin-bottom:15px;
+    margin-left:30px;
+    padding:5px;
+    display: block;
+    width: 320px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+.rightside button{
+    background-color:#2874f0 ;
+    margin: 10px auto;
+    width:120px;
+    height: 32px;
+    transition: .2s ease;
+    border:none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    padding:0px
+}
+.rightside button:hover,
+.rightside button:focus{
+    transition: .3s ease;
+    background-color: blue;
+
+}
+
+.rightside input[type="text"]:focus,
+.rightside input[type="password"]:focus{
+    border-bottom: 2px solid #2874f0;
+}
+form div{
+color: red;
+margin-left: 30px;
+
+}
+
+.signinmodal{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    right: 500px;
+    bottom: 200px;
+    border:none;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+
+    .signincontainer{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .formcontainer{
+        background-color: #ffffff;
+        flex:5 5;
+    }
+
+    .formcontainer input[type="text"]{
+        border:none;
+        outline: none;
+        box-sizing: border-box;
+        border-bottom: 1px solid #aaa;
+        margin-bottom:15px;
+        margin-left:30px;
+        padding:5px;
+        display: block;
+        width: 320px;
+        height: 32px;
+        font-weight: 400;
+        font-size: 15px;
+        transition: 0.2s ease;
+    }
+    .formcontainer input[type="password"]{
+        border:none;
+        outline: none;
+        box-sizing: border-box;
+        border-bottom: 1px solid #aaa;
+        margin-bottom:15px;
+        margin-left:30px;
+        padding:5px;
+        display: block;
+        width: 320px;
+        height: 32px;
+        font-weight: 400;
+        font-size: 15px;
+        transition: 0.2s ease;
+    }
+    .formcontainer button{
+        background-color:#2874f0 ;
+        margin: 10px auto;
+        width:120px;
+        height: 32px;
+        transition: .2s ease;
+        border:none;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    h1{
+        text-align: center;
+        padding:0px
+    }
+    .formcontainer button:hover,
+    .formcontainer button:focus{
+        transition: .3s ease;
+        background-color: blue;
+    
+    }
+    
+    .formcontainer input[type="text"]:focus,
+    .formcontainer input[type="password"]:focus{
+        border-bottom: 2px solid #2874f0;
+    }
+    
